@@ -1,0 +1,594 @@
+@media (min-width: 30rem) and (max-width: 48rem) {
+    /* index.html */
+    .header {
+        max-width: 48rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        background-color: pink; 
+    }
+    .Logo,
+    .list:hover {
+        color: #b30000
+    }
+    .section-1 {
+        max-width: 48rem;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .Nicki-Minaj {
+        max-width: 48rem;
+        width: 100%;
+        height: auto;
+    }
+    .bio {
+        max-width: 48rem;
+        width: 100%;
+        height: auto;
+        font-size: 1.875rem;
+    }
+    .bio:hover {
+        color: #800000;
+    }
+    .span-1:hover {
+        color: #009900;
+    }
+    .text-1:hover {
+        color: #cc0000;
+    }
+    .albums:hover {
+        color: #800000;
+    }
+    .div-2 {
+        max-width: 48rem;
+        width: 100%;
+        height: auto;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+    .footer {
+        max-width: 48rem;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        background-color: #ff0066;
+    }
+    .fa-brands:hover {
+        color: #b30000
+    }
+    /* news.html */
+    .songs:hover {
+        color: #800000;
+    }
+    .lists:hover {
+        color: #b30000
+    }
+    .anaconda:hover {
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+        -webkit-transition: all 2s linear;
+        -o-transition: all 2s linear;
+        transition: all 2s linear;
+    }
+    /* shopping.html */
+    .section-3,
+    .section-4 {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+    .readmore-div:hover {
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+        -webkit-transition: all 3s linear;
+        -o-transition: all 3s linear;
+        transition: all 3s linear;
+        background-color: #ff3333;
+    }
+    .cost:hover {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+        color: #ffcc00;
+    }
+    /* contact.html */
+    .section-5 {
+        display: -ms-grid;
+        display: grid;
+        grid-template-rows: repeat(2, 3fr);
+    }
+    .submit {
+        margin-bottom: 2rem;
+    }
+    .phone:hover,
+    .Address:hover {
+        color: #009900;
+    }
+}
+@media (min-width: 20rem) and (max-width: 30rem) {
+    /* index.html */
+    .header {
+        max-width: 30rem;
+        width: 100%;
+        height: auto;
+        top: 0%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: pink;
+        position: fixed;
+    }
+    nav {
+        display: none;
+    }
+    .nav-li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .fa-bars {
+        display: block;
+        width: 3rem;
+        font-size: 1.25rem;
+        color: #fff;
+    }
+    .div-1 {
+        max-width: 30rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .Nicki-Minaj {
+        max-width: 30rem;
+        width: 100%;
+        height: auto;
+        margin-top: 7rem;
+    }
+    .div-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 1.0625rem;
+    }
+    .footer {
+        max-width: 30rem;
+        width: 100%;
+        position: sticky;
+    }
+    /* news.html */
+    .ol-li {
+        max-width: 30rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .anaconda {
+        max-width: 30rem;
+        width: 100%;
+        height: auto;
+        margin-top: 9rem;
+    }
+    /* shopping.html */
+    .section-3,
+    .section-4 {
+        max-width: 30rem;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .readmore-div:hover {
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+        -webkit-transition: all 3s linear;
+        -o-transition: all 3s linear;
+        transition: all 3s linear;
+        background-color: #ff66cc;
+    }
+    .cost:hover {
+        -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+                transform: scale(0.9);
+        color: #ffcc00;
+    }
+    /* contact.html */
+    .Logo:hover {
+        color: #e60000;
+    }
+    .section-5 {
+        max-width: 30rem;
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .E-mail,
+    .input-mail,
+    .input-form {
+        border: none;
+        outline: none;
+    }
+    .submit {
+        margin-bottom: 2rem;
+    }
+    .submit:hover {
+        -webkit-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+                transform: rotate(360deg);
+        -webkit-transition: all 3s linear;
+        -o-transition: all 3s linear;
+        transition: all 3s linear;
+        background-color: #ff3300;
+    }
+    .phone:hover,
+    .Address:hover {
+        color: #009900;
+        -webkit-transform: scale(0.7);
+            -ms-transform: scale(0.7);
+                transform: scale(0.7);
+    }
+}
+@media (max-width: 20rem) {
+    /* index.html */
+    .header {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        top: 0%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background-color: lightpink;
+        position: fixed;
+    }
+    nav {
+        display: none;
+    }
+    .nav-li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    } 
+    .fa-bars {
+        display: block;
+        width: 3rem;
+        font-size: 1.25rem;
+        color: #fff;
+    }
+    .div-1 {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .Nicki-Minaj {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        margin-top: 11rem;
+    }
+    .bio {
+        font-size: 1.25rem;
+    }
+    .text-1 {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+    }
+    .div-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 1.0625rem;
+    }
+    .Pink-Friday,
+    .Roman-Reloaded,
+    .Pink-Print,
+    .Queen {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+    }
+    .footer {
+        max-width: 20rem;
+        width: 100%;
+        background-color: pink;
+        margin-top: 4rem;
+    }
+    /* news.html */
+    .ol-li {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 3rem;
+    }
+    .anaconda {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+    }
+    .songs,
+    .lists {
+        font-size: 1.25rem;
+    }
+    /* shopping.html */
+    .section-3,
+    .section-4 {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .div-3,
+    .div-4,
+    .div-5,
+    .div-6,
+    .div-7,
+    .div-8 {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .t-1,
+    .t-2,
+    .t-3,
+    .perfume-1,
+    .perfume-2,
+    .perfume-3 {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        margin-top: 7rem;
+    }
+    .T-shirt-1,
+    .T-shirt-2,
+    .T-shirt-3,
+    .perfume-1,
+    .perfume-2,
+    .perfume-3 {
+        font-size: 1.25rem;
+    }
+    .readmore-div:hover {
+        -webkit-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+        -webkit-transition: all 3s linear;
+        -o-transition: all 3s linear;
+        transition: all 3s linear;
+        background-color: lightpink;
+    }
+    .cost:hover {
+        -webkit-transform: scale(0.6);
+            -ms-transform: scale(0.6);
+                transform: scale(0.6);
+        color: goldenrod;
+    }
+    /* contact.html */
+    .Logo:hover {
+        color: plum;
+    }
+    .section-5 {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .left-block {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .E-mail,
+    .input-mail,
+    .input-form {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        font-size: 1.25rem;
+        border: none;
+        outline: none;
+        margin-top: 2rem;
+    }
+    .submit {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+        font-size: 1.25rem;
+        margin-bottom: 2rem;
+    }
+    .submit:hover {
+        -webkit-transform: rotate(-360deg);
+            -ms-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+        -webkit-transition: all 2s linear;
+        -o-transition: all 3s linear;
+        -webkit-transition: all 3s linear;
+        transition: all 3s linear;
+        background-color: maroon;
+    }
+    .input-mail::-webkit-input-placeholder, .input-form::-webkit-input-placeholder {
+        display: none;
+    }
+    .input-mail::-moz-placeholder, .input-form::-moz-placeholder {
+        display: none;
+    }
+    .input-mail:-ms-input-placeholder, .input-form:-ms-input-placeholder {
+        display: none;
+    }
+    .input-mail::-ms-input-placeholder, .input-form::-ms-input-placeholder {
+        display: none;
+    }
+    .input-mail::placeholder,
+    .input-form::placeholder {
+        display: none;
+    }
+    .phone,
+    .Address {
+        font-size: 1.25rem;
+    }
+    .phone:hover,
+    .Address:hover {
+        color: yellowgreen;
+        -webkit-transform: scale(0.5);
+            -ms-transform: scale(0.5);
+                transform: scale(0.5);
+    }
+    .map {
+        max-width: 20rem;
+        width: 100%;
+        height: auto;
+    }
+}

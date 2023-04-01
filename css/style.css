@@ -1,0 +1,349 @@
+.nav.activeNav {
+    display: block;
+}
+/* index.html */
+.header {
+    height: 6.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    background-color: hotpink;
+}
+.Logo {
+    font-size: 2.5rem;
+    margin: auto 0;
+    color: #fff;
+    font-family: 'Fasthand', cursive;
+}
+.Logo:hover {
+    color: #e00074;
+}
+.nav-li {
+    width: 25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 2.625rem 0;
+}
+.fa-solid {
+    display: none;
+}
+.fa-cart-shopping {
+    display: none;
+}
+.list {
+    font-size: 1.5625rem;
+    color: #fff;
+}
+.list:hover {
+    color: #e00074;
+}
+.section-1 {
+    width: 100%;
+}
+.div-1 {
+    width: 22.5rem;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+}
+.Nicki-Minaj {
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+}
+.bio {
+    font-size: 2.1875rem;
+    color: #000;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: 'Anton', sans-serif;
+}
+.span-1 {
+    font-size: 1.5625rem;
+    color: #1f1f14;
+}
+.text-1 {
+    font-size: 1.0625rem;
+    color: #e00074;
+    word-spacing: 0.1875rem;
+    letter-spacing: 0.0625rem;
+    font-family: 'Lobster', cursive;
+}
+.section-2 {
+    width: 100%;
+    text-align: center;
+}
+.albums {
+    font-size: 2.1875rem;
+    color: #000;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-family: 'Anton', sans-serif;
+}
+.div-2 {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 3rem 0;
+}
+.Pink-Friday,
+.Roman-Reloaded,
+.Pink-Print,
+.Queen {
+    width: 9.375rem;
+    height: auto;
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+            transform: scale(0.9);
+}
+.Pink-Friday,
+.Roman-Reloaded,
+.Pink-Print,
+.Queen, :hover {
+    cursor: pointer;
+}
+.footer {
+    height: 6.25rem;
+    background-color: hotpink;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 auto;
+}
+.fa-brands {
+    color: #fff;
+    font-size: 1.5625rem;
+    margin-top: 1.875rem;
+}
+.fa-brands:hover {
+    color: #e60000;
+}
+/* news.html */
+.anaconda {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.songs {
+    font-size: 2.5rem;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Hanalei', cursive;
+}
+.ol-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+}
+.lists {
+    font-size: 2.1875rem;
+    color: #ff0756;
+    margin-top: 1.875rem;
+}
+.lists:hover {
+    color: #660000;
+}
+/* shopping.html */
+.section-3,
+.section-4 {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.div-3,
+.div-4,
+.div-5,
+.div-6,
+.div-7,
+.div-8 {
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.t-1,
+.t-2,
+.t-3,
+.perfume-1,
+.perfume-2,
+.perfume-3 {
+    width: 12.5rem;
+    height: auto;
+    margin: 2rem 0;
+}
+.cost {
+    font-size: 2.5rem;
+    color: #ff3300;
+    margin: 1rem 0;
+}
+.T-shirt-1 {
+    font-size: 2.1875rem;
+    color: #660000;
+}
+.T-shirt-2 {
+    font-size: 2.1875rem;
+    color: #202013;
+}
+.T-shirt-3 {
+    font-size: 2.1875rem;
+    color: #b3b3b3;
+}
+.readmore-div {
+    width: 7rem;
+    height: 3rem;
+    background-color: #ff0066;
+    border-radius: 25%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 3rem;
+}
+.readmore {
+    color: #730099;
+    font-size: 1.125rem;
+    height: auto;
+}
+.first-list {
+    font-size: 2.1875rem;
+    color: #ff4d88;
+}
+.second-list {
+    font-size: 2.1875rem;
+    color: #e00074;
+}
+.third-list {
+    font-size: 2.1875rem;
+    color: #ff3300;
+}
+/* contact.html */
+.section-5 {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 7rem 0;
+}
+.left-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5rem;
+}
+.E-mail {
+    font-size: 2.1875rem;
+    color: #cc0066;
+}
+.input-mail::-webkit-input-placeholder {
+    color: #ff80bf;
+}
+.input-mail::-moz-placeholder {
+    color: #ff80bf;
+}
+.input-mail:-ms-input-placeholder {
+    color: #ff80bf;
+}
+.input-mail::-ms-input-placeholder {
+    color: #ff80bf;
+}
+.input-mail::placeholder {
+    color: #ff80bf;
+}
+.input-form::-webkit-input-placeholder {
+    color: #ff80bf;
+}
+.input-form::-moz-placeholder {
+    color: #ff80bf;
+}
+.input-form:-ms-input-placeholder {
+    color: #ff80bf;
+}
+.input-form::-ms-input-placeholder {
+    color: #ff80bf;
+}
+.input-form::placeholder {
+    color: #ff80bf;
+}
+.input-mail {
+    width: 12.5rem;
+    height: 1.7rem;
+}
+.submit {
+    font-size: 2.1875rem;
+    color: #990099;
+    background-color: #cc66ff;
+    border-radius: 10%;
+    font-family: 'Press Start 2P', cursive;
+}
+.right-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 3rem;
+}
+.phone,
+.Address {
+    font-size: 2.1875rem;
+    color: #660033;
+}
+.map {
+    width: 100%;
+    height: auto;
+}
