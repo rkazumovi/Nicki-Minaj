@@ -1,8 +1,6 @@
 👑 Nicki Minaj Fan Website
 
-
-<img width="640" height="427" alt="nicki minaj" src="https://github.com/user-attachments/assets/a0af045b-4dcf-446f-a52d-9a37b10daeac" />
-
+<img width="768" height="1024" alt="nicki minaj" src="https://github.com/user-attachments/assets/58fa16c4-6e05-4cec-86b0-30611625cf4f" />
 
 A modern, responsive fan website dedicated to the life, music, achievements, and legacy of Nicki Minaj. The project presents an interactive biography, album collection, news section, and contact page while showcasing modern frontend development skills and responsive web design principles.
 
