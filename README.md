@@ -1,361 +1,114 @@
-👑 Nicki Minaj Fan Website
+# 👑 Nicki Minaj — Fan Website
 
-<img width="768" height="1024" alt="nicki minaj" src="https://github.com/user-attachments/assets/58fa16c4-6e05-4cec-86b0-30611625cf4f" />
+A modern, responsive fan website dedicated to the life, music, achievements, and legacy of Nicki Minaj. The site presents an interactive biography, discography, news section, and contact page, built entirely with vanilla HTML, CSS, and JavaScript.
 
-A modern, responsive fan website dedicated to the life, music, achievements, and legacy of Nicki Minaj. The project presents an interactive biography, album collection, news section, and contact page while showcasing modern frontend development skills and responsive web design principles.
+🌐 **Live Demo:** [rkazumovi.github.io/Nicki-Minaj](https://rkazumovi.github.io/Nicki-Minaj/)
+📂 **Repository:** [github.com/rkazumovi/Nicki-Minaj](https://github.com/rkazumovi/Nicki-Minaj)
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-222?logo=github)
 
+---
 
-🌐 Live Demo: https://rkazumovi.github.io/Nicki-Minaj/
+## Overview
 
-📂 Repository: https://github.com/rkazumovi/Nicki-Minaj
+This project is a content-driven tribute site celebrating Nicki Minaj's career and cultural impact. It combines a clean, editorial visual style with custom typography and iconography to deliver an engaging, media-rich browsing experience across sections covering her biography, discography, news, and contact information.
 
+## ✨ Features
 
+- 👑 Multi-section fan site layout (Home, About, News, Albums, Contact)
+- 📖 Interactive biography covering early life, rise to fame, and career milestones
+- 💿 Discography showcase featuring key albums (*Pink Friday*, *Pink Friday: Roman Reloaded*, *The Pinkprint*, *Queen*)
+- 🎨 Custom typography using multiple Google Fonts (Fasthand, Anton, Lobster, Hanalei, Press Start 2P)
+- 🎯 Icon set powered by Font Awesome
+- 📱 Fully responsive layout across desktop, tablet, and mobile
+- ⚡ Lightweight, fast-loading static site with no build step
+- 🔍 SEO-friendly meta tags and Open Graph data for link previews
 
-📖 Overview
+## 🛠️ Built With
 
+**Languages**
+- HTML5 — semantic page structure and markup
+- CSS3 — layout, styling, and responsive design (organized into separate reset, core style, and responsive stylesheets)
+- JavaScript (Vanilla) — DOM interactivity and dynamic behavior
 
+**Frameworks / Libraries**
+- [Font Awesome](https://fontawesome.com/) — icon library (loaded via CDN)
+- [Google Fonts](https://fonts.google.com/) — custom web typography (Fasthand, Anton, Lobster, Hanalei, Press Start 2P)
 
-The Nicki Minaj Fan Website was developed as a tribute project celebrating the career and accomplishments of Nicki Minaj, one of the most influential artists in contemporary music. The website provides visitors with an engaging experience through an elegant interface that highlights her biography, discography, and cultural impact.
+**Tools & Deployment**
+- [Git](https://git-scm.com/) — version control
+- [GitHub](https://github.com/) — source hosting and collaboration
+- [GitHub Pages](https://pages.github.com/) — static site hosting and deployment
+- [Visual Studio Code](https://code.visualstudio.com/) — development environment (Live Server for local preview)
 
+## 📁 Project Structure
 
-
-The project demonstrates the ability to build visually appealing, content-driven websites using modern frontend development techniques and responsive design practices.
-
-
-
-✨ Features
-
-👑 Dedicated fan website for Nicki Minaj
-
-📖 Interactive biography section
-
-💿 Album showcase
-
-📰 News section
-
-📬 Contact page
-
-🎨 Modern and visually appealing design
-
-📱 Fully responsive layout
-
-⚡ Fast-loading static website
-
-🖼️ Rich media presentation
-
-🔗 Smooth navigation between sections
-
-🏗️ Sections
-
-🏠 Home
-
-
-
-Landing page introducing Nicki Minaj and highlighting her career and achievements.
-
-
-
-📖 About
-
-
-
-An autobiographical section covering:
-
-
-
-Early life and upbringing
-
-Family background
-
-Musical beginnings
-
-Rise to international fame
-
-Career milestones and achievements
-
-Influence on the music industry
-
-📰 News
-
-
-
-A dedicated section for showcasing updates and information related to Nicki Minaj's career and projects.
-
-
-
-💿 Albums
-
-
-
-A discography section featuring notable albums, including:
-
-
-
-Pink Friday
-
-Pink Friday: Roman Reloaded
-
-The Pinkprint
-
-Queen
-
-📬 Contact
-
-
-
-A contact section that allows visitors to connect and interact with the website.
-
-
-
-🛠️ Technology Stack
-
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Tools & Deployment
-
-Git
-
-GitHub
-
-GitHub Pages
-
-🎯 Project Goals
-
-
-
-This project was built to:
-
-
-
-Practice modern frontend development
-
-Create an engaging content-driven website
-
-Implement responsive web design principles
-
-Improve user interface and user experience design skills
-
-Demonstrate the ability to structure and present multimedia content effectively
-
-Build a professional static website suitable for deployment
-
-🏗️ Architecture
-
-
-
-The application follows a simple and maintainable frontend architecture focused on:
-
-
-
-Semantic HTML structure
-
-Modular styling with CSS
-
-Interactive behavior using JavaScript
-
-Responsive layouts
-
-Clean navigation and user experience
-
-Performance-optimized static content delivery
-
-🚀 Getting Started
-
-Prerequisites
-
-
-
-You only need the following to run the project locally:
-
-
-
-Web browser
-
-Git
-
-Optional: VS Code with Live Server extension
-
-⚙️ Installation
-
-
-
-Clone the repository:
-
-
-
-git clone https://github.com/rkazumovi/Nicki-Minaj.git
-
-
-
-Navigate to the project directory:
-
-
-
-cd Nicki-Minaj
-
-▶️ Running Locally
-
-
-
-Open the project folder and launch:
-
-
-
-index.html
-
-
-
-or use a local development server such as Live Server in Visual Studio Code.
-
-
-
-📁 Project Structure
-
+```
 Nicki-Minaj/
-
-├── index.html
-
+├── index.html            # Main HTML entry point
+├── script.js              # JavaScript for interactivity
 ├── css/
-
-│   └── styles.css
-
-├── js/
-
-│   └── script.js
-
-├── images/
-
-├── assets/
-
+│   ├── reset.css          # CSS reset / normalization
+│   ├── style.css          # Core styling
+│   └── responsive.css     # Responsive breakpoints
 └── README.md
+```
 
+## 🚀 Getting Started
 
+### Prerequisites
 
-The exact structure may vary depending on the implementation.
+- A modern web browser
+- [Git](https://git-scm.com/)
+- (Optional) [VS Code](https://code.visualstudio.com/) with the Live Server extension
 
+### Installation
 
+1. Clone the repository
+   ```bash
+   git clone https://github.com/rkazumovi/Nicki-Minaj.git
+   cd Nicki-Minaj
+   ```
 
-📱 Responsive Design
+2. Open `index.html` directly in your browser, or serve it locally with Live Server for the best experience (hot reload, correct relative paths).
 
+No build step, package manager, or dependencies are required — this is a pure static site.
 
+## 📱 Responsive Design
 
-The website is fully responsive and optimized for:
+The layout adapts across desktop, tablet, and mobile viewports using a dedicated `responsive.css` stylesheet with breakpoint-based media queries.
 
+## 📦 Deployment
 
+The site is deployed via **GitHub Pages** directly from this repository and is live at:
+👉 [rkazumovi.github.io/Nicki-Minaj](https://rkazumovi.github.io/Nicki-Minaj/)
 
-Desktop devices
-
-Tablets
-
-Mobile devices
-
-Various screen sizes and resolutions
-
-🎓 Skills Demonstrated
-
-
-
-This project demonstrates proficiency in:
-
-
-
-HTML5 semantic markup
-
-CSS styling and layouts
-
-Responsive web design
-
-JavaScript DOM manipulation
-
-Website information architecture
-
-UI/UX design principles
-
-Static website deployment with GitHub Pages
-
-Frontend project organization
-
-💡 Learning Outcomes
-
-
-
-Through this project, I strengthened my experience in:
-
-
-
-Building content-rich websites
-
-Designing engaging user interfaces
-
-Structuring information effectively
-
-Implementing responsive layouts
-
-Creating reusable frontend components
-
-Deploying static websites to production environments
-
-🔮 Future Improvements
-
-
-
-Potential enhancements include:
-
-
-
-Interactive music player integration
-
-Expanded discography section
-
-Image galleries and multimedia content
-
-Timeline of career achievements
-
-Search functionality
-
-Dark and light themes
-
-Fan community features
-
-Social media integration
-
-Newsletter subscription
-
-Performance and accessibility improvements
-
-
-
-🤝 Contributing
-
-
+## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
+1. Fork the repository
+2. Create your feature branch
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. Commit your changes
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to the branch
+   ```bash
+   git push origin feature/new-feature
+   ```
+5. Open a Pull Request
 
+## 📄 Disclaimer
 
-Fork the repository
+This is an unofficial fan-made project created for demonstration and portfolio purposes. It is not affiliated with, endorsed by, or officially connected to Nicki Minaj, her management, or record label. All artist names, album titles, and related media are property of their respective owners.
 
-Create your feature branch
+---
 
-git checkout -b feature/new-feature
-
-Commit your changes
-
-git commit -m "Add new feature"
-
-Push to the branch
-
-git push origin feature/new-feature
-
-Open a Pull Request
-
-
-
-⭐ If you found this project interesting, consider giving it a star on GitHub!
+<p align="center">⭐ If you found this project interesting, consider giving it a star on GitHub!</p>
