@@ -1,5 +1,7 @@
 # 👑 Nicki Minaj — Fan Website
 
+<img width="768" height="1024" alt="nicki minaj" src="https://github.com/user-attachments/assets/58fa16c4-6e05-4cec-86b0-30611625cf4f" />
+
 A modern, responsive fan website dedicated to the life, music, achievements, and legacy of Nicki Minaj. The site presents an interactive biography, discography, news section, and contact page, built entirely with vanilla HTML, CSS, and JavaScript.
 
 🌐 **Live Demo:** [rkazumovi.github.io/Nicki-Minaj](https://rkazumovi.github.io/Nicki-Minaj/)
